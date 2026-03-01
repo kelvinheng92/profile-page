@@ -12,13 +12,7 @@ export default function Publications() {
           <h2 className="text-2xl font-bold text-gray-900">Publications</h2>
           <div className="flex gap-3 text-xs text-gray-500 sm:mb-1">
             <span className="bg-blue-50 text-blue-700 border border-blue-200 rounded-full px-2.5 py-0.5 font-semibold">
-              {profile.publications.length} papers
-            </span>
-            <span className="bg-blue-50 text-blue-700 border border-blue-200 rounded-full px-2.5 py-0.5 font-semibold">
-              {totalCitations} citations
-            </span>
-            <span className="bg-blue-50 text-blue-700 border border-blue-200 rounded-full px-2.5 py-0.5 font-semibold">
-              h-index {profile.scholarMetrics.hIndex}
+              {profile.publications.length} paper{profile.publications.length !== 1 ? "s" : ""}
             </span>
           </div>
         </div>
