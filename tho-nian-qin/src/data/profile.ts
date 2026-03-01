@@ -75,8 +75,20 @@ export const profile = {
       school: "NUS Yong Loo Lin School of Medicine",
       degree: "MBBS",
       field: "Medicine & Surgery",
-      period: "Completed",
+      period: "2015 – 2020",
       note: "National University of Singapore",
+    },
+    {
+      school: "Temasek Junior College",
+      degree: "GCE A-Levels",
+      field: "Pre-University",
+      period: "Prior to 2015",
+    },
+    {
+      school: "Cedar Girls' Secondary School",
+      degree: "GCE O-Levels",
+      field: "Secondary Education",
+      period: "Prior to JC",
     },
   ] as Education[],
   skills: {
