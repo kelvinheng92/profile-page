@@ -42,7 +42,7 @@ export interface SkillGroups {
 export const profile = {
   name: "Kenneth Zhu",
   fullName: "Kenneth Zhu Ke",
-  title: "Executive Director, Head of Data Science",
+  title: "Managing Director, Head of Data Science",
   tagline: "AI & Data Science leader specialising in financial crime detection — 400 AI models making 6 million decisions daily",
   location: "Singapore",
   contact: {
@@ -52,9 +52,9 @@ export const profile = {
     scholar: "",
   },
   languages: ["English", "Mandarin Chinese"],
-  summary: "Executive Director and Head of Data Science at OCBC with a PhD from NTU and a decade of experience building production AI systems. Specialist in financial crime detection, fraud prevention, and scalable ML infrastructure. Oversees a platform of 400 AI models that collectively make 6 million decisions every day. Combines deep engineering roots (robotics, mechatronics) with modern data science leadership to deliver measurable risk and business impact.",
+  summary: "Managing Director and Head of Data Science at OCBC with a PhD from NTU and a decade of experience building production AI systems. Specialist in financial crime detection, fraud prevention, and scalable ML infrastructure. Oversees a platform of 400 AI models that collectively make 6 million decisions every day. Combines deep engineering roots (robotics, mechatronics) with modern data science leadership to deliver measurable risk and business impact.",
   experience: [
-    { company: "OCBC", role: "Executive Director, Head of Data Science", period: "2021 – Present", location: "Singapore", bullets: ["Oversees 400+ AI models making 6 million decisions daily across fraud detection, financial crime, and customer analytics.", "Leads a cross-functional data science organisation spanning OCBC and Bank of Singapore.", "Co-authored research on multi-stage extraction from scanned financial documents (arXiv 2025).", "Key speaker at Fraud & Financial Crime Asia 2024 on AI-powered financial crime prevention."] },
+    { company: "OCBC", role: "Managing Director, Head of Data Science", period: "2021 – Present", location: "Singapore", bullets: ["Oversees 400+ AI models making 6 million decisions daily across fraud detection, financial crime, and customer analytics.", "Leads a cross-functional data science organisation spanning OCBC and Bank of Singapore.", "Co-authored research on multi-stage extraction from scanned financial documents (arXiv 2025).", "Key speaker at Fraud & Financial Crime Asia 2024 on AI-powered financial crime prevention."] },
     { company: "OCBC / Bank of Singapore", role: "VP of Data Science / Data Science Lead", period: "2018 – 2021", location: "Singapore", bullets: ["Joined OCBC and Bank of Singapore in 2018 as Data Science Lead.", "Built and scaled the data science function focused on financial crime and fraud.", "Promoted to Vice President in 2021 in recognition of team growth and impact."] },
     { company: "National University of Singapore", role: "Industry Mentor", period: "2023 – Present", location: "Singapore", bullets: ["Mentors students in data science and AI, bridging academic research with industry practice."] },
     { company: "TÜV SÜD", role: "Senior Data Scientist", period: "2017 – 2018", location: "Singapore", bullets: ["Developed predictive ML models for industrial safety and quality assurance applications.", "Applied statistical modeling and analytics to sensor and manufacturing data."] },
@@ -83,7 +83,8 @@ export const profile = {
   achievements: [
     { year: "2024", category: "Speaking", title: "Speaker — Fraud & Financial Crime Asia 2024", detail: "Presented on AI-powered financial crime prevention at OCBC." },
     { year: "2025", category: "Research", title: "arXiv Publication — Financial Document AI", detail: "Co-authored 'Multi-Stage Field Extraction of Financial Documents with OCR and Compact Vision-Language Models' with Jin Yichao et al." },
-    { year: "2021", category: "Career", title: "Promoted to VP — One of Fastest-Promoted at OCBC", detail: "Recognised for exceptional performance and tangible impact in data science and financial crime AI." },
+    { year: "2021", category: "Career", title: "Promoted to VP of Data Science at OCBC", detail: "Recognised for exceptional performance and tangible impact in data science and financial crime AI." },
+    { year: "2025", category: "Career", title: "Promoted to Managing Director at OCBC", detail: "Elevated to Managing Director, Head of Data Science, reflecting continued leadership and impact in AI-driven financial crime prevention." },
   ] as Achievement[],
   publications: [
     { title: "Multi-Stage Field Extraction of Financial Documents with OCR and Compact Vision-Language Models", authors: "Y Jin, Y Wang, Q Zhong, K Chiu Jin-Chun, K Zhu, D MacDonald", venue: "arXiv preprint", year: 2025, citations: 0, url: "https://arxiv.org/abs/2510.23066" },
