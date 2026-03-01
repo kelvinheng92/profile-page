@@ -8,13 +8,13 @@ export default function Header() {
       <div className="max-w-4xl mx-auto px-6 py-10">
         <div className="flex items-start gap-6">
           {/* Avatar */}
-          <div className="shrink-0">
+          <div className="shrink-0 w-24 h-24 rounded-full overflow-hidden border-2 border-gray-200 shadow-sm">
             <Image
               src="/avatar.jpg"
               alt={profile.name}
-              width={100}
-              height={100}
-              className="rounded-full object-cover border-2 border-gray-200 shadow-sm"
+              width={96}
+              height={96}
+              className="w-full h-full object-cover"
               priority
             />
           </div>

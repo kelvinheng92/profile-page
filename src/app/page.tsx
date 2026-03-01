@@ -6,6 +6,7 @@ import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Certifications from "@/components/Certifications";
 import Achievements from "@/components/Achievements";
+import Testimonials from "@/components/Testimonials";
 
 const NAV_LINKS = [
   { href: "#about", label: "About" },
@@ -15,6 +16,7 @@ const NAV_LINKS = [
   { href: "#skills", label: "Skills" },
   { href: "#certifications", label: "Certifications" },
   { href: "#achievements", label: "Achievements" },
+  { href: "#testimonials", label: "Testimonials" },
 ];
 
 export default function Home() {
@@ -47,6 +49,7 @@ export default function Home() {
         <Skills />
         <Certifications />
         <Achievements />
+        <Testimonials />
       </main>
 
       <footer className="py-8 text-center text-xs text-gray-400 border-t border-gray-200 print:hidden">
