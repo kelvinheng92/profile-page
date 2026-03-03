@@ -7,6 +7,7 @@ import Skills from "@/components/Skills";
 import Certifications from "@/components/Certifications";
 import Achievements from "@/components/Achievements";
 import Testimonials from "@/components/Testimonials";
+import LogoutButton from "@/components/LogoutButton";
 
 const NAV_LINKS = [
   { href: "#about", label: "About" },
@@ -25,7 +26,7 @@ export default function Home() {
       {/* Sticky nav */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200 print:hidden">
         <div className="max-w-4xl mx-auto px-6">
-          <ul className="flex gap-6 py-3 text-sm font-medium text-gray-600 overflow-x-auto">
+          <ul className="flex gap-6 py-3 text-sm font-medium text-gray-600 overflow-x-auto items-center">
             {NAV_LINKS.map((link) => (
               <li key={link.href} className="shrink-0">
                 <a
@@ -36,6 +37,9 @@ export default function Home() {
                 </a>
               </li>
             ))}
+            <li className="shrink-0 ml-auto">
+              <LogoutButton />
+            </li>
           </ul>
         </div>
       </nav>
